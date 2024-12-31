@@ -3,25 +3,25 @@
 ================================== */
 @font-face {
   font-family: "Knockout";
-  src: url("./assets/fonts/Knockout-HTF49-Liteweight.otf") format("opentype");
+  src: url("/assets/fonts/Knockout-HTF49-Liteweight.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeueLight";
-  src: url("./assets/fonts/HelveticaNeueLight.otf") format("opentype");
+  src: url("/assets/fonts/HelveticaNeueLight.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeueMedium";
-  src: url("./assets/fonts/HelveticaNeueMedium.otf") format("opentype");
+  src: url("/assets/fonts/HelveticaNeueMedium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeueBold";
-  src: url("./assets/fonts/HelveticaNeueBold.otf") format("opentype");
+  src: url("/assets/fonts/HelveticaNeueBold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
@@ -294,4 +294,37 @@ textarea {
   background-color: var(--color-accent);
   color: var(--color-white);
   border-color: var(--color-accent);
+}
+
+/* Home Page */
+/* Hero Section */
+.rise-hero-section{
+  background-image: url('../images/hero-section-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.rise-hero-section .container{
+  max-width: 1330px;
+  margin: 0 auto;
+}
+.rise-hero-section .hero-section-area .rise-hero-content {
+  width: 451px;
+  height: 100%;
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0) 100%), url('../images/hero-section-content-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 110px 40px 120px;
+}
+
+.rise-hero-section .hero-section-area .rise-hero-content h1{
+  color: var(--color-white);
+}
+.rise-hero-section .hero-section-area .rise-hero-content button{
+  cursor: pointer;
+}
+.rise-hero-section .hero-section-area .rise-hero-content p{
+  margin: 18px 0 46px;
+  color: var(--color-white);
 }

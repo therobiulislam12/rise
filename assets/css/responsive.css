@@ -1,11 +1,43 @@
 /* Mobile (Max-width 767px) */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   /* ===============================
             Utility Classes
     ================================== */
   .container {
     max-width: 100%;
     padding: 0 20px;
+  }
+
+  /* Home Page */
+  /* Hero Section */
+  .rise-hero-section{
+    background-image: url('../images/hero-section-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+  }
+  .rise-hero-section .container{
+    padding: 0;
+  }
+  .rise-hero-section .hero-section-area {
+    margin-left: 0;
+  }
+  .rise-hero-section .hero-section-area .rise-hero-content{
+    width: 100%;
+    height: 100%;
+    padding: 50px 30px 60px;
+  }
+  .rise-hero-section .hero-section-area .rise-hero-content h1.heading-one {
+    font-size: 46px;
+    line-height: 56px;
+  }
+  .rise-hero-section .hero-section-area .rise-hero-content p{
+    margin: 15px 0 26px;
   }
 }
 
@@ -18,15 +50,31 @@
     max-width: 100%;
     padding: 0 20px;
   }
+
+  /* Home Page */
+  /* Hero Section */
+  .rise-hero-section .hero-section-area {
+    margin-left: 0;
+  }
+  .rise-hero-section .hero-section-area .rise-hero-content h1.heading-one {
+    font-size: 74px;
+    line-height: 70px;
+  }
 }
 
 /* Laptops (Min-width 1024px and Max-width 1366px) */
-@media only screen and (min-width: 1025px) and (max-width: 1365px) {
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
   /* ===============================
             Utility Classes
     ================================== */
   .container {
     max-width: 100%;
     padding: 0 20px;
+  }
+
+  /* Home Page */
+  /* Hero Section */
+  .rise-hero-section .hero-section-area{
+    margin-left: 200px;
   }
 }
