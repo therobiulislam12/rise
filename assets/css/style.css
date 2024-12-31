@@ -3,25 +3,25 @@
 ================================== */
 @font-face {
   font-family: "Knockout";
-  src: url("/assets/fonts/Knockout-HTF49-Liteweight.otf") format("opentype");
+  src: url("./assets/fonts/Knockout-HTF49-Liteweight.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeueLight";
-  src: url("/assets/fonts/HelveticaNeueLight.otf") format("opentype");
+  src: url("./assets/fonts/HelveticaNeueLight.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeueMedium";
-  src: url("/assets/fonts/HelveticaNeueMedium.otf") format("opentype");
+  src: url("./assets/fonts/HelveticaNeueMedium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeueBold";
-  src: url("/assets/fonts/HelveticaNeueBold.otf") format("opentype");
+  src: url("./assets/fonts/HelveticaNeueBold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
@@ -244,25 +244,25 @@ textarea {
   letter-spacing: 1.25px;
 }
 
-.heading-two{
+.heading-two {
   font-family: var(--font-knockout);
   font-size: 50px;
   line-height: 50px;
 }
 
-.heading-three{
+.heading-three {
   font-family: var(--font-knockout);
   font-size: 35px;
   line-height: 40px;
 }
 
-.heading-four{
+.heading-four {
   font-family: var(--font-helvetica-neue-bold);
   font-size: 18px;
   line-height: 24px;
 }
 
-.rise-btn{
+.rise-btn {
   font-family: var(--font-helvetica-neue-medium);
   font-size: 16px;
   font-weight: 24px;
@@ -273,24 +273,24 @@ textarea {
   border-style: solid;
 }
 
-.rise-btn-solid{
+.rise-btn-solid {
   background-color: var(--color-accent);
   color: var(--color-white);
   border-color: var(--color-accent);
 }
 
-.rise-btn-solid:hover{
+.rise-btn-solid:hover {
   background-color: var(--color-white);
   color: var(--color-accent);
   border-color: var(--color-accent);
 }
 
-.rise-btn-outline{
+.rise-btn-outline {
   color: var(--color-accent);
   background-color: var(--color-white);
   border-color: var(--color-accent);
 }
-.rise-btn-outline:hover{
+.rise-btn-outline:hover {
   background-color: var(--color-accent);
   color: var(--color-white);
   border-color: var(--color-accent);
