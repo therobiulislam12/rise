@@ -1,0 +1,297 @@
+/* ===============================
+        Font Family
+================================== */
+@font-face {
+  font-family: "Knockout";
+  src: url("/assets/fonts/Knockout-HTF49-Liteweight.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueLight";
+  src: url("/assets/fonts/HelveticaNeueLight.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueMedium";
+  src: url("/assets/fonts/HelveticaNeueMedium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueBold";
+  src: url("/assets/fonts/HelveticaNeueBold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ===============================
+            Global Variable
+================================== */
+:root {
+  /* Colors */
+  --color-primary: #831619;
+  --color-secondary: #181726;
+  --color-accent: #831619;
+  --color-dark: #424243;
+  --color-light: #f6f6f6;
+  --color-white: #ffffff;
+  --color-gray: #67708d;
+  --color-black: #000000;
+
+  /* Font Family */
+  --font-knockout: "Knockout", "sans-serif";
+  --font-helvetica-neue-light: "HelveticaNeueLight", "sans-serif";
+  --font-helvetica-neue-medium: "HelveticaNeueMedium", "sans-serif";
+  --font-helvetica-neue-bold: "HelveticaNeueBold", "sans-serif";
+}
+
+/* ===============================
+            Common CSS
+================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "HelveticaNeueLight", "sans-serif";
+  line-height: 26px;
+  font-size: 18px;
+  background-color: var(--color-white);
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* ===============================
+        Utility Classes
+================================== */
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.heading-one {
+  font-family: var(--font-knockout);
+  font-size: 100px;
+  line-height: 80px;
+  letter-spacing: 1.25px;
+}
+
+.heading-two{
+  font-family: var(--font-knockout);
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.heading-three{
+  font-family: var(--font-knockout);
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.heading-four{
+  font-family: var(--font-helvetica-neue-bold);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.rise-btn{
+  font-family: var(--font-helvetica-neue-medium);
+  font-size: 16px;
+  font-weight: 24px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  transition: all 0.3s ease-in;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.rise-btn-solid{
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border-color: var(--color-accent);
+}
+
+.rise-btn-solid:hover{
+  background-color: var(--color-white);
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.rise-btn-outline{
+  color: var(--color-accent);
+  background-color: var(--color-white);
+  border-color: var(--color-accent);
+}
+.rise-btn-outline:hover{
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border-color: var(--color-accent);
+}

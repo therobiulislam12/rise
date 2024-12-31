@@ -1,0 +1,8 @@
+H1 - KnockOut - 400 - 100/80 - #fff - 1.25px
+H2 - KnockOut - 400 - 50/50 - #fff
+H3 - KnockOut - 400 - 35/40 - #000
+H4 - Helvetica Neue - 700 - 18/24 - #181726
+
+
+Body - Helvetica Neue - 300 - 18/26 - 1px - #fff 
+Button - Helvetica Neue - 500 - 16/24 - #fff

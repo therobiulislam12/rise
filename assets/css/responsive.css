@@ -1,0 +1,32 @@
+/* Mobile (Max-width 767px) */
+@media only screen and (max-width: 767px) {
+  /* ===============================
+            Utility Classes
+    ================================== */
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+/* Tablets (Min-width 768px and Max-width 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* ===============================
+            Utility Classes
+    ================================== */
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+/* Laptops (Min-width 1024px and Max-width 1366px) */
+@media only screen and (min-width: 1025px) and (max-width: 1365px) {
+  /* ===============================
+            Utility Classes
+    ================================== */
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
