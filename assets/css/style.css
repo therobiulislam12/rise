@@ -297,6 +297,7 @@ textarea {
 }
 
 /* Home Page */
+
 /* Hero Section */
 .rise-hero-section{
   background-image: url('../images/hero-section-bg.png');
@@ -327,4 +328,45 @@ textarea {
 .rise-hero-section .hero-section-area .rise-hero-content p{
   margin: 18px 0 46px;
   color: var(--color-white);
+}
+
+/* Get Inspired Section start */
+.rise-get-inspired-section{
+  padding: 100px 0;
+}
+.rise-get-inspired-section .container{
+  max-width: 1440px;
+}
+.rise-get-inspired-section .rise-get-inspired-columns{
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 70px;
+}
+.rise-get-inspired-section .rise-get-inspired-column .rise-get-inspired-model{
+  position: relative;
+}
+.rise-get-inspired-section .rise-get-inspired-column .rise-get-inspired-model .rise-get-inspired-overlay-logo{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rise-get-inspired-section .rise-get-inspired-column .rise-get-inspired-model-avatar{
+  position: relative;
+}
+.rise-get-inspired-section .rise-get-inspired-column .rise-get-inspired-model-avatar::after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 50%, #000000 100%);
+  width: 100%;
+  height: 100%;
+}
+.rise-get-inspired-section .rise-get-inspired-column .rise-get-inspired-content{
+  padding: 34px 35px 0;
+}
+.rise-get-inspired-section .rise-get-inspired-column .rise-get-inspired-content p{
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 9px;
 }
