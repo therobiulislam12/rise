@@ -21,22 +21,41 @@
     gap: 40px;
     flex-wrap: wrap;
   }
-  .rise-footer-section .rise-footer-content .rise-footer-quick-links{
+  .rise-footer-section .rise-footer-content .rise-footer-quick-links {
     width: 50%;
   }
-  .rise-footer-section .rise-footer-content .rise-footer-newsletter{
+  .rise-footer-section .rise-footer-content .rise-footer-newsletter {
     padding: 40px 20px;
     width: 100%;
   }
-  .rise-footer-section .rise-footer-content .rise-footer-newsletter h4{
+  .rise-footer-section .rise-footer-content .rise-footer-newsletter h4 {
     font-size: 15px;
   }
-  .rise-footer-section .rise-footer-newsletter #newsletter-email{
+  .rise-footer-section .rise-footer-newsletter #newsletter-email {
     width: 160px;
   }
-  .rise-footer-section .rise-footer-newsletter .rise-footer-submit-btn{
+  .rise-footer-section .rise-footer-newsletter .rise-footer-submit-btn {
     padding: 13px 15px;
   }
+  .rise-footer-bottom-section .rise-bottom-footer-content.flex {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .rise-footer-bottom-section .rise-footer-bottom-left ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .rise-footer-bottom-section .rise-footer-bottom-left .rise-footer-bottom-right-border{
+    border: none;
+  }
+
+  .rise-footer-bottom-section .rise-footer-bottom-right ul {
+    gap: 20px;
+  }
+
+
   /* Home Page */
   /* Hero Section */
   .rise-hero-section {
@@ -98,13 +117,18 @@
   /* ===============================
           Footer Section
     ================================== */
-    .rise-footer-section .rise-footer-main-area{
-      grid-template-columns: 1fr;
-    }
-    .rise-footer-section .rise-footer-content{
-      gap: 50px;
-      justify-content: space-between;
-    }
+  .rise-footer-section .rise-footer-main-area {
+    grid-template-columns: 1fr;
+  }
+  .rise-footer-section .rise-footer-content {
+    gap: 50px;
+    justify-content: space-between;
+  }
+
+  .rise-footer-bottom-section .rise-bottom-footer-content.flex {
+    flex-direction: column;
+    gap: 20px;
+  }
 
   /* Home Page */
   /* Hero Section */
@@ -184,6 +208,10 @@
     ul
     li:not(:first-child) {
     margin: 30px 0;
+  }
+  .rise-footer-bottom-section .rise-bottom-footer-content.flex {
+    flex-direction: column;
+    gap: 30px;
   }
 
   /* Home Page */
