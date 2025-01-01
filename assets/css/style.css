@@ -302,6 +302,72 @@ textarea {
   border-color: var(--color-accent);
 }
 
+/* Footer Section */
+.rise-footer-section{
+  background-color: #424243;
+  padding: 83px 0 120px;
+  background: url('../images/rise-footer-left-image.png') left center no-repeat, 
+              url('../images/footer-right-half.png') right center no-repeat;
+  background-size: 50% 100%;
+}
+
+.rise-footer-section .rise-footer-main-area{
+  grid-template-columns: 1fr 300px;
+}
+.rise-footer-section .rise-footer-content{
+  gap: 120px;
+}
+.rise-footer-section .rise-footer-content .rise-footer-quick-links ul li a{
+  margin: 33px 0;
+  color: var(--color-light);
+  font-size: 18px;
+  line-height: 23px;
+  font-family: var(--font-helvetica-neue-bold);
+}
+.rise-footer-section .rise-footer-content .rise-footer-quick-links ul li:not(:first-child){
+  margin: 33px 0;
+}
+
+.rise-footer-section .rise-footer-content .rise-footer-social-icons ul li:not(:first-child){
+  margin: 33px 0;
+}
+.rise-footer-section .rise-footer-content .rise-footer-social-icons ul li:first-child a img{
+  width: 15px;
+}
+.rise-footer-section .rise-footer-content .rise-footer-social-icons ul li:not(:first-child) a img{
+  width: 25px !important;
+}
+.rise-footer-section .rise-footer-content .rise-footer-newsletter{
+  background-color: var(--color-primary);
+  padding: 40px;
+  color: var(--color-white);
+}
+.rise-footer-section .rise-footer-content .rise-footer-newsletter form{
+  padding: 28px 0;
+}
+.rise-footer-section .rise-footer-content .rise-footer-newsletter p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.rise-footer-section .rise-footer-newsletter #newsletter-email{
+  width: 277px;
+  padding: 10px 17px;
+  border-radius: 3px 0px 0px 3px;
+  background-color: var(--color-white);
+  font-family: var(--font-helvetica-neue-medium);
+  font-size: 16px;
+  line-height: 25px;
+  margin-right: -7px;
+  border: 1px solid var(--color-white);
+}
+.rise-footer-section .rise-footer-newsletter .rise-footer-submit-btn{
+  padding: 13px 18px;
+  background-color: #424243;
+  color: var(--color-white);
+  border-color: #424243;
+  border-radius: 0px 3px 3px 0px;
+}
+
 /* Home Page */
 
 /* Hero Section */
