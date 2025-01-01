@@ -25,3 +25,103 @@
     z-index:1;
     letter-spacing: 0.75px;
 }
+
+.rise-shop-header-section{
+    background-color: #EEEEEE;
+    padding-bottom: 26px;
+}
+.rise-shop-header-section .container{
+    max-width: 900px;
+}
+.rise-shop-header-section .rise-shop-menu-items ul.flex{
+    gap: 80px;
+}
+.rise-shop-header-section .rise-shop-menu-items ul li a{
+    font-family: 'Knockout', sans-serif;
+    color: #181726;
+    padding-top: 27px;
+    display: block;
+    transition: all 0.3s ease-in;
+    border-top: 4px solid transparent;
+}
+.rise-shop-header-section .rise-shop-menu-items ul li a:hover{
+    border-top: 4px solid #831619;
+    color: #831619;
+}
+.rise-shop-header-section .rise-shop-menu-items ul li a.rise-shop-active{
+    border-top: 4px solid #831619;
+    color: #831619;
+}
+.rise-shop-main-section{
+    padding: 40px 0 80px;
+}
+
+.rise-shop-main-section .rise-shop-sort-header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rise-shop-main-section .rise-shop-product-count p{
+    color: #8B91A6;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+} 
+.rise-shop-main-section .rise-shop-product-sort-by{
+    gap: 11px;
+    align-items: center;
+    font-size: 14px;
+    color: #404554;
+} 
+
+.rise-shop-main-section .rise-shop-product-sort-by form select {
+    border: 1px solid #A4ABC1; /* Default border color */
+    padding: 8px 15px;
+    outline: none; 
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    background-image: url('../images/dropdwon-chevron.svg'); 
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    width: 154px;
+    font-size: 14px;
+    color: #404554;
+}
+.rise-shop-main-section .rise-shop-product-container.grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    padding-top: 40px;
+}
+.rise-shop-main-section .rise-shop-single-product .rise-shop-product-model{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.rise-shop-main-section .rise-shop-single-product .rise-shop-product-model img{
+    width: 100%;
+}
+
+.rise-shop-main-section .rise-shop-single-product:hover .rise-shop-product-model{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+
+.rise-shop-main-section .rise-shop-single-product .rise-shop-product-content h3{
+    font-family: 'HelveticaNeueBold', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #181726;
+}
+.rise-shop-main-section .rise-shop-single-product .rise-shop-product-content{
+    padding-top: 11px;
+}
+.rise-shop-main-section .rise-shop-single-product .rise-shop-product-content .rise-shop-product-category{
+    color: #67708D;
+    font-size: 15px;
+    line-height: 24px;
+}
+.rise-shop-main-section .rise-shop-single-product .rise-shop-product-content .rise-shop-product-price{
+    color: #181726;
+}
