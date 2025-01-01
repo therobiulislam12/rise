@@ -47,14 +47,15 @@
     text-align: center;
   }
 
-  .rise-footer-bottom-section .rise-footer-bottom-left .rise-footer-bottom-right-border{
+  .rise-footer-bottom-section
+    .rise-footer-bottom-left
+    .rise-footer-bottom-right-border {
     border: none;
   }
 
   .rise-footer-bottom-section .rise-footer-bottom-right ul {
     gap: 20px;
   }
-
 
   /* Home Page */
   /* Hero Section */
@@ -101,6 +102,15 @@
     .rise-get-inspired-column
     .rise-get-inspired-content {
     padding: 24px 20px 0;
+  }
+
+  /* Shop Page */
+  .rise-shop-hero-section {
+    padding: 60px;
+  }
+
+  .rise-shop-hero-section h1.heading-two {
+    font-size: 40px;
   }
 }
 
@@ -168,6 +178,11 @@
   .rise-clear-path-legacy-section .rise-clear-path-legacy-content p {
     padding: 24px 0;
   }
+
+  /* Shop Page */
+  .rise-shop-hero-section {
+    padding: 60px;
+  }
 }
 
 /* Laptops (Min-width 1024px and Max-width 1366px) */
@@ -218,5 +233,10 @@
   /* Hero Section */
   .rise-hero-section .hero-section-area {
     margin-left: 200px;
+  }
+
+  /* Shop Page */
+  .rise-shop-hero-section {
+    padding: 80px;
   }
 }
