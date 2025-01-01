@@ -353,6 +353,9 @@ textarea {
 .rise-get-inspired-section .rise-get-inspired-column .rise-get-inspired-model-avatar{
   position: relative;
 }
+.rise-get-inspired-section .rise-get-inspired-column .rise-get-inspired-model-avatar img{
+  width: 100%;
+}
 .rise-get-inspired-section .rise-get-inspired-column .rise-get-inspired-model-avatar::after{
   position: absolute;
   content: '';
