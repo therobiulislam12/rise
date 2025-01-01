@@ -3,28 +3,33 @@
 ================================== */
 @font-face {
   font-family: "Knockout";
-  src: url("/assets/fonts/Knockout-HTF49-Liteweight.otf") format("opentype");
+  src: url("/assets/fonts/Knockout-HTF49-Liteweight.woff2") format("woff2"),
+       url("/assets/fonts/Knockout-HTF49-Liteweight.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeueLight";
-  src: url("/assets/fonts/HelveticaNeueLight.otf") format("opentype");
+  src: url("/assets/fonts/HelveticaNeueLight.woff2") format("woff2"),
+       url("/assets/fonts/HelveticaNeueLight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeueMedium";
-  src: url("/assets/fonts/HelveticaNeueMedium.otf") format("opentype");
+  src: url("/assets/fonts/HelveticaNeueMedium.woff2") format("woff2"),
+       url("/assets/fonts/HelveticaNeueMedium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeueBold";
-  src: url("/assets/fonts/HelveticaNeueBold.otf") format("opentype");
+  src: url("/assets/fonts/HelveticaNeueBold.woff2") format("woff2"),
+       url("/assets/fonts/HelveticaNeueBold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
+
 
 /* ===============================
             Global Variable
@@ -271,6 +276,7 @@ textarea {
   transition: all 0.3s ease-in;
   border-width: 2px;
   border-style: solid;
+  cursor: pointer;
 }
 
 .rise-btn-solid {
@@ -372,4 +378,33 @@ textarea {
   font-size: 16px;
   line-height: 24px;
   margin-top: 9px;
+}
+
+/* Clear Path Legacy Section */
+.rise-clear-path-legacy-section{
+  padding: 10px 0 120px;
+  color: var(--color-white);
+}
+
+.rise-clear-path-legacy-section .container{
+  max-width: 1330px;
+  background-color: #424243;
+}
+.rise-clear-path-legacy-section .rise-clear-path-legacy-main-area{
+  grid-template-columns: 750px 1fr;
+}
+.rise-clear-path-legacy-section .rise-clear-path-legacy-content{
+  padding: 100px 0px 100px 80px;
+  position: relative;
+}
+.rise-clear-path-legacy-section .rise-clear-path-legacy-content{
+  padding: 100px 0px 100px 80px;
+  position: relative;
+}
+
+.rise-clear-path-legacy-section .rise-clear-path-legacy-content p{
+  padding: 34px 0;
+}
+.rise-clear-path-legacy-section .rise-clear-path-legacy-image img{
+  width: 100%;
 }
