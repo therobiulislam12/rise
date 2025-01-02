@@ -1,0 +1,36 @@
+.rise-single-shop-header{
+    padding: 21px 0;
+}
+.rise-single-product-area.flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rise-single-product-area .rise-single-product-breadcrumb ul {
+  display: flex;
+  gap: 20px;
+}
+.rise-single-product-area
+  .rise-single-product-breadcrumb
+  ul
+  li:not(:first-child) {
+  list-style: square;
+  margin-left: 15px;
+  color: #a4abc1;
+}
+.rise-single-product-area .rise-single-product-breadcrumb ul li a {
+  color: #a4abc1;
+  font-family: "HelveticaNeueMedium", sans-serif;
+  font-size: 16px;
+}
+.rise-single-product-area .rise-single-product a {
+  color: #404554 !important;
+}
+.rise-single-product-area .rise-single-product-back-home.flex {
+  align-items: center;
+  gap: 14px;
+}
+.rise-single-product-area .rise-single-product-back-home a {
+  color: #a4abc1;
+  font-size: 16px;
+}
