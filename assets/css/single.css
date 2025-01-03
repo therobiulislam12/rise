@@ -34,3 +34,26 @@
   color: #a4abc1;
   font-size: 16px;
 }
+
+.rise-single-product-all-images {
+  grid-template-columns: 80px 1fr;
+  gap: 28px;
+}
+
+.rise-single-product-thumbs-share {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rise-single-product-preview-image {
+  width: 514px;
+  height: auto;
+}
+.rise-single-product-preview-image img {
+  width: 100%;
+}
+
+.rise-single-product-thumbs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

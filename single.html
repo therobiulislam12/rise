@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/single.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <link rel="stylesheet" href="./assets/css/lib/slick.css">
+    <link rel="stylesheet" href="./assets/css/lib/slick-theme.css">
 </head>
 
 <body>
@@ -50,12 +53,34 @@
 
         <!-- Single Product Main content section start -->
         <section class="rise-single-product-main-section">
-            <div class="contianer">
-                <div class="rise-single-product-main-content-area grid" style="grid-template-columns: 1fr 1fr;">
+            <div class="container">
+                <div class="rise-single-product-main-content-area grid"
+                    style="grid-template-columns: 1fr 1fr;gap: 70px;">
 
-                    <div class="rise-single-product-all-images">
+                    <div class="rise-single-product-all-images grid">
+                        <div class="rise-single-product-thumbs-share flex">
+                            <!-- Thumbnail Slider -->
+                            <div class="rise-single-product-thumbs">
+                                <div><img src="./assets/images/Signature-Jacket-1.jpg" alt="Thumb 1"></div>
+                                <div><img src="./assets/images/Signature-Jacket-2.jpg" alt="Thumb 2"></div>
+                                <div><img src="./assets/images/Signature-Jacket-3.jpg" alt="Thumb 3"></div>
+                                <div><img src="./assets/images/Signature-Jacket-4.jpg" alt="Thumb 4"></div>
+                            </div>
+                            <!-- Share Section -->
+                            <div class="rise-single-product-share">
+                                <a href="#">Share</a>
+                            </div>
+                        </div>
 
+                        <!-- Main Preview Slider -->
+                        <div class="rise-single-product-preview-image">
+                            <div><img src="./assets/images/Signature-Jacket-1.jpg" alt="Preview 1"></div>
+                            <div><img src="./assets/images/Signature-Jacket-2.jpg" alt="Preview 2"></div>
+                            <div><img src="./assets/images/Signature-Jacket-3.jpg" alt="Preview 3"></div>
+                            <div><img src="./assets/images/Signature-Jacket-4.jpg" alt="Preview 4"></div>
+                        </div>
                     </div>
+
 
                     <div class="rise-single-product-content">
                         <h2 class="heading-two">Micro Jacket</h2>
@@ -111,7 +136,8 @@
                                 </div>
                                 <div class="rise-product-price-add-to-cart">
                                     <p class="heading-two">$79.99</p>
-                                    <button type="submit" class="rise-btn rise-btn-solid text-uppercase">Add to cart</button>
+                                    <button type="submit" class="rise-btn rise-btn-solid text-uppercase">Add to
+                                        cart</button>
                                 </div>
                             </div>
                         </form>
@@ -212,6 +238,8 @@
     <!-- Footer Section End -->
 
     <!-- Scripts -->
+    <script src="./assets/js/lib/jquery.min.js"></script>
+    <script src="./assets/js/lib/slick.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
