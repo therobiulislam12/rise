@@ -1,0 +1,113 @@
+.rise-login-page-header {
+  padding: 21px 0;
+}
+.rise-login-header-area.flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rise-login-header-area .rise-login-breadcrumb ul {
+  display: flex;
+  gap: 20px;
+}
+.rise-login-header-area .rise-login-breadcrumb ul li:not(:first-child) {
+  list-style: square;
+  margin-left: 10px;
+  color: #a4abc1;
+}
+.rise-login-header-area .rise-login-breadcrumb ul li a {
+  color: #a4abc1;
+  font-family: "HelveticaNeueMedium", sans-serif;
+  font-size: 16px;
+}
+.rise-login-header-area .rise-login-page a {
+  color: #404554 !important;
+}
+
+.rise-login-main-area .container {
+  max-width: 680px;
+}
+.rise-login-tab.grid {
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+.rise-login-tab div {
+  padding: 35px 0 27px;
+  font-size: 17px;
+  font-family: "HelveticaNeueBold", sans-serif;
+  color: #a4abc1;
+  cursor: pointer;
+}
+
+.rise-login-tab .rise-tab-active {
+  background: #ffffff;
+  padding: 35px 0 27px;
+  font-size: 17px;
+  font-family: "HelveticaNeueBold", sans-serif;
+  color: #181726;
+  cursor: pointer;
+}
+
+.rise-login-main-area {
+  padding: 45px 0 120px;
+}
+
+.rise-already-register-user-login,
+.rise-guest-login {
+  background: #ffffff;
+  padding: 45px 54px 65px;
+}
+
+.rise-already-register-user-login form,
+.rise-guest-login form {
+  width: 405px;
+  margin: 32px auto 0;
+}
+
+.rise-already-register-user-login form div,
+.rise-guest-login form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  gap: 5px;
+}
+.rise-already-register-user-login form input {
+  border: 1px solid #a4abc1;
+  padding: 20px;
+}
+.rise-already-register-user-login .rise-btn {
+  margin: 30px 0 15px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 31px;
+  border-radius: 3px;
+  font-family: "HelveticaNeueBold", sans-serif;
+}
+.rise-already-register-user-login h2 {
+  font-size: 22px;
+}
+
+.rise-already-register-user-login a {
+  text-align: center;
+  display: block;
+  color: #831619;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "HelveticaNeueBold", sans-serif;
+}
+.rise-guest-login form div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #A4ABC1;
+  padding: 15px 20px;
+}
+
+.rise-guest-login form div button {
+  color: #831619;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}

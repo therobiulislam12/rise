@@ -301,6 +301,9 @@ textarea {
   color: var(--color-white);
   border-color: var(--color-accent);
 }
+.rise-body-background{
+  background-color: #F6F6F6;
+}
 
 /* Footer Section */
 .rise-footer-section{
