@@ -1,42 +1,53 @@
 /* ===============================
         Font Family
 ================================== */
-@font-face {
-  font-family: "Knockout";
-  src: url("/assets/fonts/Knockout-HTF49-Liteweight-Regular.ttf") format("ttf");
+/* @font-face {
+  font-family: 'Knockout';
+  src: url("../fonts/Knockout-HTF49-Liteweight-Regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 @font-face {
-  font-family: 'Helvetica Neue';
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueLight.ttf") format("ttf"),
+    url("../fonts/HelveticaNeueLight.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueLight.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 
+@font-face {
+  font-family: 'HelveticaNeueLight';
   src: url('../fonts/HelveticaNeueLight.ttf') format('ttf');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
-@font-face {
-  font-family: "HelveticaNeueLight";
-  src: url("/assets/fonts/HelveticaNeueLight.woff2") format("woff2"),
-    url("/assets/fonts/HelveticaNeueLight.woff") format("woff");
+/* @font-face {
+  font-family: 'HelveticaNeueLight';
+  src: url('../fonts/HelveticaNeueLight.ttf') format('ttf');
   font-weight: 300;
   font-style: normal;
-}
-@font-face {
+  font-display: swap;
+} */
+/* @font-face {
   font-family: "HelveticaNeueMedium";
-  src: url("/assets/fonts/HelveticaNeueMedium.woff2") format("woff2"),
+  src: url("../fonts/HelveticaNeueMedium.woff2") format("woff2"),
     url("/assets/fonts/HelveticaNeueMedium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "HelveticaNeueBold";
-  src: url("/assets/fonts/HelveticaNeueBold.woff2") format("woff2"),
+  src: url("../fonts/HelveticaNeueBold.woff2") format("woff2"),
     url("/assets/fonts/HelveticaNeueBold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
-}
+}  */
 
 /* ===============================
             Global Variable
@@ -476,7 +487,7 @@ textarea {
 }
 
 /* Most Popular section start */
-.rise-most-popular-section{
+.rise-most-popular-section {
   padding: 91px 0 30px;
 }
 
@@ -499,22 +510,22 @@ textarea {
   margin-bottom: -10px;
 }
 .rise-most-popular-section .slick-arrow {
-    border: 1px solid #979797;
-    display: flex;
-    padding: 6px 11px;
-    cursor: pointer;
-    transition: all 0.3s ease-in;
+  border: 1px solid #979797;
+  display: flex;
+  padding: 6px 11px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
 }
-.rise-most-popular-section .slick-arrow path{
-    transition: all 0.3s ease-in;
+.rise-most-popular-section .slick-arrow path {
+  transition: all 0.3s ease-in;
 }
 .rise-most-popular-section .slick-arrow:hover path {
-    fill: var(--color-primary);
+  fill: var(--color-primary);
 }
-.rise-most-popular-section .slick-arrow:hover{
-    border-color: var(--color-primary);
+.rise-most-popular-section .slick-arrow:hover {
+  border-color: var(--color-primary);
 }
-.rise-most-popular-section .rise-shop-product-container{
+.rise-most-popular-section .rise-shop-product-container {
   padding-top: 60px;
 }
 
