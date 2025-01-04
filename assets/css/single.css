@@ -57,3 +57,27 @@
   flex-direction: column;
   gap: 20px;
 }
+.rise-single-product-preview-area {
+  border: 1px solid #eee;
+  position: relative;
+}
+.rise-single-product-preview-area .rise-singe-product-arrows{
+  justify-content: space-between;
+  align-items: center;
+}
+.rise-single-product-preview-area .rise-singe-product-arrows #rise-single-product-prev-arrow{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 20px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.rise-single-product-preview-area .rise-singe-product-arrows #rise-single-product-next-arrow{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  right: 20px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
