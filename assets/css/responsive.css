@@ -16,6 +16,10 @@
     display: none;
   }
 
+  .rise-main-header-section .rise-main-header-logo{
+    width: 110px;
+  }
+
   /* Footer Section */
   .rise-footer-section {
     padding: 60px 0 60px;
