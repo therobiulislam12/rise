@@ -126,6 +126,14 @@
     padding: 24px 20px 0;
   }
 
+  .rise-clear-path-legacy-section .rise-clear-path-legacy-main-area {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+  .rise-clear-path-legacy-section .rise-clear-path-legacy-content {
+    padding: 0px;
+  }
+
   /* Shop Page */
   .rise-shop-hero-section {
     padding: 60px;
