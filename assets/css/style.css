@@ -3,11 +3,19 @@
 ================================== */
 @font-face {
   font-family: "Knockout";
-  src: url("/assets/fonts/Knockout-HTF49-Liteweight.woff2") format("woff2"),
-    url("/assets/fonts/Knockout-HTF49-Liteweight.woff") format("woff");
+  src: url("/assets/fonts/Knockout-HTF49-Liteweight-Regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/HelveticaNeueLight.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
   font-family: "HelveticaNeueLight";
   src: url("/assets/fonts/HelveticaNeueLight.woff2") format("woff2"),
@@ -66,7 +74,7 @@
 }
 
 body {
-  font-family: "HelveticaNeueLight", "sans-serif";
+  font-family: "Helvetica Neue", "sans-serif";
   line-height: 26px;
   font-size: 18px;
   background-color: var(--color-white);
