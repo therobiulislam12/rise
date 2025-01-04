@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: "HelveticaNeueBold";
-  src: url("../fonts//HelveticaNeueBold.ttf") format("ttf"),
+  src: url("../fonts/HelveticaNeueBold.ttf") format("ttf"),
     url("../fonts/HelveticaNeueBold.woff2") format("woff2"),
     url("../fonts/HelveticaNeueBold.woff") format("woff");
   font-weight: 700;
