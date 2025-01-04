@@ -401,7 +401,9 @@ textarea {
   color: var(--color-white);
   font-weight: 700;
 }
-
+.rise-main-header-section .rise-main-header-hamburger svg{
+  margin-bottom: -10px;
+}
 .rise-main-header-section .rise-main-header-menu-items .flex {
   list-style: none;
   margin: 0;
