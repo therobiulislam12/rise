@@ -19,6 +19,10 @@
   .rise-main-header-section .rise-main-header-logo{
     width: 130px;
   }
+  .rise-main-header-section {
+    padding: 14px 0;
+  }
+  
 
   /* Footer Section */
   .rise-footer-section {
