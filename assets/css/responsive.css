@@ -12,17 +12,23 @@
   .rise-main-header-section .rise-main-header-menu-items,
   .rise-top-header-section,
   .rise-main-header-section .rise-main-header-user,
-  .rise-main-header-section .rise-main-header-search{
+  .rise-main-header-section .rise-main-header-search {
     display: none;
   }
 
-  .rise-main-header-section .rise-main-header-logo{
+  .rise-main-header-section .rise-main-header-logo {
     width: 130px;
   }
   .rise-main-header-section {
     padding: 14px 0;
   }
-  
+  .rise-cart-pos {
+    top: 48px;
+    left: -250px;
+  }
+  .rise-cart-pos .container {
+    padding: 0;
+  }
 
   /* Footer Section */
   .rise-footer-section {
@@ -142,8 +148,14 @@
 
   /* header section */
   .rise-main-header-section .rise-main-header-menu-items,
-  .rise-top-header-section .rise-top-header-announcement{
+  .rise-top-header-section .rise-top-header-announcement {
     display: none;
+  }
+  .rise-cart-pos {
+    top: 55px;
+  }
+  .rise-cart-pos .container {
+    padding: 0;
   }
 
   /* ===============================
@@ -219,7 +231,7 @@
 
   /* header section */
   .rise-main-header-section .rise-main-header-menu-items,
-  .rise-top-header-section .rise-top-header-announcement{
+  .rise-top-header-section .rise-top-header-announcement {
     display: none;
   }
 
