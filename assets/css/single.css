@@ -81,3 +81,9 @@
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
+.rise-single-product-thumbs .slick-slide.slick-current{
+  border: 1px solid red;
+}
+.rise-single-product-thumbs .slick-slide{
+  margin-top: 5px;
+}

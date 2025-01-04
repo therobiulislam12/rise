@@ -37,22 +37,21 @@ jQuery(document).ready(function ($) {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 1000,
     prevArrow: $("#rise-single-product-prev-arrow"),
     nextArrow: $("#rise-single-product-next-arrow"),
-    // asNavFor: ".rise-single-product-thumbs", 
-    // fade: true, 
+    asNavFor: ".rise-single-product-thumbs",
+    adaptiveHeight: true
   });
 
   // Initialize the thumbnails slider
-  // $(".rise-single-product-thumbs").slick({
-  //   dots: true,
-  //   vertical: true,
-  //   slidesToShow: 4,
-  //   slidesToScroll: 1,
-  //   verticalSwiping: true,
-  //   arrows: true,
-  //   asNavFor: ".rise-single-product-preview-image",
-  //   focusOnSelect: true
-  // });
+  $(".rise-single-product-thumbs").slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    vertical: true,
+    verticalSwiping: true,
+    asNavFor: ".rise-single-product-preview-image",
+    focusOnSelect: true,
+    infinite: false,
+  });
 });
