@@ -1,12 +1,15 @@
 /* ===============================
         Font Family
 ================================== */
-/* @font-face {
-  font-family: 'Knockout';
-  src: url("../fonts/Knockout-HTF49-Liteweight-Regular.ttf") format("ttf");
-  font-weight: normal;
+@font-face {
+  font-family: "Knockout";
+  src: url("../fonts/Knockout-HTF49-Liteweight-Regular.ttf") format("ttf"),
+    url("../fonts/Knockout-HTF49-Liteweight.woff2") format("woff2"),
+    url("../fonts/Knockout-HTF49-Liteweight.woff") format("woff");
+  font-weight: 500;
   font-style: normal;
-} */
+  font-display: swap;
+}
 
 @font-face {
   font-family: "Helvetica Neue";
