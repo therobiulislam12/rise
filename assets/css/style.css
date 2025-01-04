@@ -682,10 +682,36 @@ textarea {
 .rise-most-popular-section .slick-arrow:hover {
   border-color: var(--color-primary);
 }
-.rise-most-popular-section .rise-shop-product-container {
+.rise-most-popular-section .rise-most-popular-product-container {
   padding-top: 60px;
 }
+.rise-most-popular-section .rise-most-popular-product-container .rise-most-single-product{
+  margin: 0 20px;
+}
+.rise-most-popular-section .rise-most-single-product .rise-most-popular-product-model{
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.rise-most-popular-section .rise-most-single-product .rise-most-popular-product-model img{
+  width: 100%;
+}
+.rise-most-popular-section .rise-most-single-product:hover .rise-most-popular-product-model{
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+.rise-most-popular-section .rise-most-single-product .rise-most-popular-product-content h3{
+  font-family: 'HelveticaNeueBold', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  color: #181726;
+}
+.rise-most-popular-section .rise-most-single-product .rise-most-popular-product-content{
+  padding-top: 11px;
+}
 
+.rise-most-popular-section .rise-most-single-product .rise-most-popular-product-content .rise-most-popular-product-price{
+  color: #181726;
+}
 /* Get Inspired Section start */
 .rise-get-inspired-section {
   padding: 100px 0;

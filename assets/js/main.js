@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-  $(".rise-shop-product-container").slick({
+  $(".rise-most-popular-product-container").slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     // autoplay: true,
