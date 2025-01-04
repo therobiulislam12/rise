@@ -41,7 +41,7 @@ jQuery(document).ready(function ($) {
     prevArrow: $("#rise-single-product-prev-arrow"),
     nextArrow: $("#rise-single-product-next-arrow"),
     asNavFor: ".rise-single-product-thumbs",
-    adaptiveHeight: true
+    adaptiveHeight: true,
   });
 
   // Initialize the thumbnails slider
@@ -53,5 +53,31 @@ jQuery(document).ready(function ($) {
     asNavFor: ".rise-single-product-preview-image",
     focusOnSelect: true,
     infinite: false,
+  });
+});
+
+$(document).ready(function () {
+  $(".rise-main-header-cart").on("click", function () {
+    const $cartPos = $(".rise-cart-pos");
+    if ($cartPos.hasClass("active")) {
+      $cartPos.removeClass("active").addClass("fade-out");
+      setTimeout(() => {
+        $cartPos.css("display", "none").removeClass("fade-out");
+      }, 300);
+    } else {
+      $cartPos.css("display", "block");
+      setTimeout(() => {
+        $cartPos.addClass("active");
+      }, 10);
+    }
+  });
+
+  // Close cart on close icon click
+  $(".rise-cart-close-icon").on("click", function () {
+    const $cartPos = $(".rise-cart-pos");
+    $cartPos.removeClass("active").addClass("fade-out");
+    setTimeout(() => {
+      $cartPos.css("display", "none").removeClass("fade-out");
+    }, 300);
   });
 });
