@@ -32,6 +32,10 @@
   .rise-main-header-hamburger {
     display: block;
   }
+  .rise-cart-indicator {
+    top: -5px;
+    right: 65px;
+  }
 
   /* Footer Section */
   .rise-footer-section {
