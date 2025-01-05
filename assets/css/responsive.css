@@ -25,6 +25,7 @@
   .rise-cart-pos {
     top: 48px;
     left: -230px;
+    z-index: 99;
   }
   .rise-cart-pos .container {
     padding: 0;
@@ -325,6 +326,27 @@
   .rise-shop-hero-section {
     padding: 60px;
   }
+
+  /*=========================================
+                Shop Product Page 
+  =========================================== */
+  .rise-shop-main-section .rise-shop-product-container.grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-top: 40px;
+  }
+  .rise-shop-header-section .rise-shop-menu-items ul.flex {
+    gap: 50px;
+  }
+  .rise-shop-header-section .rise-shop-menu-items {
+    overflow-x: scroll;
+  }
+  .rise-shop-header-section {
+    padding-bottom: 0px;
+  }
+  .rise-shop-header-section .rise-shop-menu-items ul li a {
+    padding: 15px 0;
+  }
 }
 
 /* Laptops (Min-width 1024px and Max-width 1366px) */
@@ -389,5 +411,10 @@
   /* Shop Page */
   .rise-shop-hero-section {
     padding: 80px;
+  }
+  .rise-shop-main-section .rise-shop-product-container.grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 40px;
   }
 }
