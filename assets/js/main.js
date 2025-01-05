@@ -38,7 +38,7 @@ jQuery(document).ready(function ($) {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
     prevArrow: $("#rise-single-product-prev-arrow"),
     nextArrow: $("#rise-single-product-next-arrow"),
     asNavFor: ".rise-single-product-thumbs",
@@ -48,7 +48,7 @@ jQuery(document).ready(function ($) {
   // Initialize the thumbnails slider
   $(".rise-single-product-thumbs").slick({
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 4,
     vertical: true,
     verticalSwiping: true,
     asNavFor: ".rise-single-product-preview-image",
