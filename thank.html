@@ -7,7 +7,7 @@
     <title>Rise Clothing - LOOK GOOD. FEEL GOOD. DO GOOD</title>
     <!-- CSS Add -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/thank-you.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
@@ -349,7 +349,7 @@
                                 <a href="/">Home</a>
                             </li>
                             <li class="rise-login-page">
-                                <a href="login.html">Login</a>
+                                <a href="thank.html">Thank You</a>
                             </li>
                         </ul>
                     </div>
@@ -358,50 +358,17 @@
         </section>
         <!-- Login page Section end -->
 
-        <section class="rise-login-main-area">
+        <section class="rise-login-main-area rise-thank-you-main-area">
             <div class="container">
-
-                <div class="rise-login-tab grid">
-                    <div id="rise-guest-login" class="text-uppercase">Guest</div>
-                    <div id="rise-already-register" class="text-uppercase rise-tab-active">Already Register</div>
-                </div>
-
-                <div class="rise-already-register-user-login rise-active">
-                    <h2 class="heading-four text-center text-uppercase">Log in with Email</h2>
-                    <form>
-                        <div>
-                            <label for="user_email">Email Address</label>
-                            <input type="email" id="user_email" name="user_email" required />
-                        </div>
-
-                        <div>
-                            <label for="user_password">Password</label>
-                            <input type="password" id="user_password" name="user_password" required />
-                        </div>
-
-                        <button type="submit" class="rise-btn rise-btn-solid text-uppercase">Log in</button>
-                    </form>
-                    <a href="#" aria-label="Forgot your password?" class="text-center">Forgot Password?</a>
-
-                </div>
-
-                <div class="rise-guest-login">
-                    <h2 class="heading-four text-center text-uppercase">Sign Up with…</h2>
-                    <form>
-                        <label for="user_email">Email Address</label>
-                        <div>
-                            <input type="email" id="user_email" name="user_email" required />
-                            <button type="submit" class="rise-guest-login-btn">Sign Up</button>
-                        </div>
-                    </form>
-                    <div class="rise-guest-login-or">
-                        <span></span>
-                        OR
-                        <span></span>
-                    </div>
-                    <div class="text-center">
-                        <button type="submit" class="rise-btn rise-btn-solid text-uppercase">Continue to
-                            Checkout</button>
+                <div class="rise-guest-login rise-thank-you-page-content text-center">
+                    <img src="./assets/images/rise-thank-you.png" alt="">
+                    <h2 class="heading-three text-center text-uppercase">Thank You!</h2>
+                    <p class="rise-order-complete-message">Your order was completed successfully!</p>
+                    <h3 class="heading-four text-center text-uppercase"id="rise-thank-you-order-id">Order # 12345678</h3>
+                    <p class="rise-order-email-text">An email receipt, including the details about your order, has been
+                        sent to the email address provided. Please keep it for your records.</p>
+                    <div class="text-center rise-thank-you-btn">
+                        <a href="index.html" class="rise-btn rise-btn-solid text-uppercase">Return to Rise Homepage</a>
                     </div>
                 </div>
             </div>

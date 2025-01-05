@@ -264,6 +264,13 @@
     padding: 20px 10px !important;
     font-size: 14px !important;
   }
+
+  /*=========================================
+           Thank You Page
+  =========================================== */
+  .rise-thank-you-main-area .rise-guest-login {
+    padding: 45px 20px 65px;
+  }
 }
 
 /* Tablets (Min-width 768px and Max-width 1023px) */
