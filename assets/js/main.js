@@ -118,3 +118,23 @@ $(document).ready(function () {
       $('.dropdown .icon').not($(this).find('.icon')).removeClass('rotate');
   });
 });
+
+
+// Login Tab
+$(document).ready(function () {
+  $("#rise-guest-login").on('click', function(e){
+    $(".rise-guest-login").addClass('rise-active');
+    $(".rise-already-register-user-login").removeClass('rise-active');
+
+    $("#rise-guest-login").addClass('rise-tab-active');
+    $("#rise-already-register").removeClass('rise-tab-active');
+  });
+  
+  $("#rise-already-register").on('click', function(e){
+    $(".rise-already-register-user-login").addClass('rise-active');
+    $(".rise-guest-login").removeClass('rise-active');
+
+    $("#rise-already-register").addClass('rise-tab-active');
+    $("#rise-guest-login").removeClass('rise-tab-active');
+  });
+});

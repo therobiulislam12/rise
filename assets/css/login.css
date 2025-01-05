@@ -111,3 +111,10 @@
   font-weight: 700;
   cursor: pointer;
 }
+.rise-already-register-user-login, .rise-guest-login{
+  display: none;
+}
+
+.rise-already-register-user-login.rise-active, .rise-guest-login.rise-active{
+  display: block;
+}
