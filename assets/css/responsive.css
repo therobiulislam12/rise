@@ -114,6 +114,16 @@
     margin: 15px 0 26px;
   }
 
+  /* Most Popular section */
+  .rise-most-popular-section .rise-most-popular-head {
+    flex-direction: column;
+    gap: 30px;
+  }  
+  .rise-most-popular-section .rise-most-popular-heading h2 {
+    font-size: 28px;
+  }
+  
+
   /* Get Inspired Section start */
   .rise-get-inspired-section {
     padding: 60px 0;
@@ -131,7 +141,8 @@
 
   .rise-clear-path-legacy-section .rise-clear-path-legacy-main-area {
     grid-template-columns: 1fr;
-    padding: 30px;
+    padding: 60px 0;
+    gap: 30px;
   }
   .rise-clear-path-legacy-section .rise-clear-path-legacy-content {
     padding: 0px;
