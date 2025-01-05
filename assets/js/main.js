@@ -81,3 +81,18 @@ $(document).ready(function () {
     }, 300);
   });
 });
+
+$(document).ready(function () {
+  $(".rise-main-header-hamburger").on("click", function () {
+    $(".rise-mobile-menu").addClass("active");
+  });
+
+  $(document).on("click", function (e) {
+    if (
+      !$(e.target).closest(".rise-mobile-menu-area").length &&
+      !$(e.target).closest(".rise-main-header-hamburger").length
+    ) {
+      $(".rise-mobile-menu").removeClass("active");
+    }
+  });
+});

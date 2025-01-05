@@ -29,6 +29,9 @@
   .rise-cart-pos .container {
     padding: 0;
   }
+  .rise-main-header-hamburger {
+    display: block;
+  }
 
   /* Footer Section */
   .rise-footer-section {
@@ -165,6 +168,9 @@
   .rise-cart-pos .container {
     padding: 0;
   }
+  .rise-main-header-hamburger {
+    display: block;
+  }
 
   /* ===============================
           Footer Section
@@ -241,6 +247,9 @@
   .rise-main-header-section .rise-main-header-menu-items,
   .rise-top-header-section .rise-top-header-announcement {
     display: none;
+  }
+  .rise-main-header-hamburger {
+    display: block;
   }
 
   /* Footer Section */
