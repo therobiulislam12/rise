@@ -37,7 +37,7 @@ jQuery(document).ready(function ($) {
   $(".rise-single-product-preview-image").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 2000,
     prevArrow: $("#rise-single-product-prev-arrow"),
     nextArrow: $("#rise-single-product-next-arrow"),
@@ -54,6 +54,15 @@ jQuery(document).ready(function ($) {
     asNavFor: ".rise-single-product-preview-image",
     focusOnSelect: true,
     infinite: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          vertical: false,
+          verticalSwiping: false,
+        },
+      },
+    ],
   });
 });
 

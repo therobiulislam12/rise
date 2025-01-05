@@ -99,6 +99,10 @@ main.rise-single-product-page-main {
 .rise-single-product-main-section {
   padding: 43px 0 120px;
 }
+.rise-single-product-main-section .rise-single-product-main-content-area {
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+}
 
 .rise-single-product-content .heading-two {
   font-family: "HelveticaNeueBold";

@@ -24,7 +24,7 @@
   }
   .rise-cart-pos {
     top: 48px;
-    left: -250px;
+    left: -230px;
   }
   .rise-cart-pos .container {
     padding: 0;
@@ -122,11 +122,10 @@
   .rise-most-popular-section .rise-most-popular-head {
     flex-direction: column;
     gap: 30px;
-  }  
+  }
   .rise-most-popular-section .rise-most-popular-heading h2 {
     font-size: 28px;
   }
-  
 
   /* Get Inspired Section start */
   .rise-get-inspired-section {
@@ -160,6 +159,64 @@
   .rise-shop-hero-section h1.heading-two {
     font-size: 40px;
   }
+
+  /*=========================================
+                Single Product Page 
+  =========================================== */
+  .rise-single-product-area.flex {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .rise-single-product-area .rise-single-product-back-home.flex {
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .rise-single-product-main-section {
+    padding: 30px 0 80px;
+  }
+  .rise-single-product-main-section .rise-single-product-main-content-area {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .rise-single-product-main-section .rise-single-product-sku-category {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .rise-single-product-all-images.grid {
+    /* display: block; */
+    overflow: hidden;
+  }
+  .rise-single-product-sku p {
+    font-size: 16px;
+  }
+
+  .rise-single-product-collection p {
+    font-size: 16px;
+  }
+  .rise-product-price-add-to-cart.flex .rise-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  .rise-single-product-content .heading-two {
+    font-family: "HelveticaNeueBold";
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .rise-single-product-all-images {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+   .rise-single-product-preview-area{
+    order: 1;
+  }
+  .rise-single-product-thumbs-share{
+    order: 2;
+  } 
 }
 
 /* Tablets (Min-width 768px and Max-width 1023px) */
