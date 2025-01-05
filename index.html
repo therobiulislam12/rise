@@ -255,14 +255,81 @@
         <!-- Mobile Menu Start -->
         <section class="rise-mobile-menu">
             <div class="rise-mobile-menu-area">
-                <div class="rise-mobile-menu-logo-icon">
+                <div class="rise-mobile-menu-logo-icon flex">
                     <div class="rise-mobile-logo">
                         <a href="index.html">
                             <img src="./assets/images/logo.png" alt="Logo">
                         </a>
                     </div>
-                    <img src="./assets/images/cart-icon.svg" alt="Cart Icon">
+                    <div class="rise-mobile-menu-close-icon">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.32867 8.50003L15.8284 2.00029C16.0572 1.77145 16.0572 1.40044 15.8284 1.17163C15.5995 0.94282 15.2285 0.942791 14.9997 1.17163L8.49999 7.67137L2.00029 1.17163C1.77145 0.942791 1.40044 0.942791 1.17163 1.17163C0.94282 1.40047 0.942791 1.77148 1.17163 2.00029L7.67133 8.5L1.17163 14.9997C0.942791 15.2286 0.942791 15.5996 1.17163 15.8284C1.28603 15.9428 1.436 16 1.58597 16C1.73594 16 1.88588 15.9428 2.00032 15.8284L8.49999 9.32869L14.9997 15.8284C15.1141 15.9428 15.2641 16 15.414 16C15.564 16 15.7139 15.9428 15.8284 15.8284C16.0572 15.5996 16.0572 15.2286 15.8284 14.9997L9.32867 8.50003Z"
+                                fill="#181726" stroke="#181726" stroke-width="0.8"></path>
+                        </svg>
+                    </div>
                 </div>
+                <div class="rise-mobile-menu-search">
+                    <form>
+
+                        <input type="text" name="search" id="rise-mobile-menu-search" placeholder="Search...">
+                        <input type="submit" value="Search" class="text-uppercase rise-btn">
+                    </form>
+                </div>
+
+                <!-- Menu Items start-->
+                <div class="rise-mobile-menu-items">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Collection
+                                    <span class="icon">
+                                        <svg width="15" height="12" viewBox="0 0 10 5" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path id="arrow" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M8.53136 0L4.99995 3.53127L1.46864 0H0L4.99995 5L10 0H8.53136Z"
+                                                fill="#231F20" />
+                                        </svg>
+                                    </span>
+                                </a>
+                                <ul class="rise-main-header-dropdown">
+                                    <li><a href="#">Original</a></li>
+                                    <li><a href="#">Legacy</a></li>
+                                    <li><a href="#">Rise Golf</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="shop.html">Shop
+                                    <span class="icon">
+                                        <svg width="10" height="5" viewBox="0 0 10 5" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path id="arrow" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M8.53136 0L4.99995 3.53127L1.46864 0H0L4.99995 5L10 0H8.53136Z"
+                                                fill="#231F20" />
+                                        </svg>
+
+                                    </span>
+                                </a>
+                                <ul class="rise-main-header-dropdown">
+                                    <li><a href="single.html">T-Shirts</a></li>
+                                    <li><a href="single.html">Hoodies</a></li>
+                                    <li><a href="single.html">Jacket</a></li>
+                                    <li><a href="single.html">Hardware</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Sale</a>
+                            </li>
+                            <li>
+                                <a href="#">Gift Cards</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Menu Items end-->
             </div>
         </section>
         <!-- Mobile Menu End -->

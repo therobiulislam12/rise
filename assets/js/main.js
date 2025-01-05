@@ -1,3 +1,4 @@
+// Slider 
 jQuery(document).ready(function ($) {
   $(".rise-most-popular-product-container").slick({
     slidesToShow: 4,
@@ -56,6 +57,7 @@ jQuery(document).ready(function ($) {
   });
 });
 
+// Cart Opening
 $(document).ready(function () {
   $(".rise-main-header-cart").on("click", function () {
     const $cartPos = $(".rise-cart-pos");
@@ -82,6 +84,7 @@ $(document).ready(function () {
   });
 });
 
+// Hamburger or mobile menu
 $(document).ready(function () {
   $(".rise-main-header-hamburger").on("click", function () {
     $(".rise-mobile-menu").addClass("active");
@@ -94,5 +97,24 @@ $(document).ready(function () {
     ) {
       $(".rise-mobile-menu").removeClass("active");
     }
+  });
+
+  $(".rise-mobile-menu-close-icon").on('click', function(e){
+    $(".rise-mobile-menu").removeClass("active");
+  });
+});
+
+$(document).ready(function () {
+  $('.dropdown > a').on('click', function (e) {
+      e.preventDefault(); 
+      const $parent = $(this).parent(); 
+      const $dropdown = $parent.find('.rise-main-header-dropdown');
+
+      $dropdown.toggleClass('active');
+
+      $(this).find('.icon').toggleClass('rotate');
+
+      $('.dropdown .rise-main-header-dropdown').not($dropdown).removeClass('active');
+      $('.dropdown .icon').not($(this).find('.icon')).removeClass('rotate');
   });
 });
