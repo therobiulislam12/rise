@@ -211,12 +211,34 @@
     grid-template-columns: 1fr;
     gap: 28px;
   }
-   .rise-single-product-preview-area{
+  .rise-single-product-preview-area {
     order: 1;
   }
-  .rise-single-product-thumbs-share{
+  .rise-single-product-thumbs-share {
     order: 2;
-  } 
+  }
+
+  /*=========================================
+                Shop Product Page 
+  =========================================== */
+  .rise-shop-main-section .rise-shop-product-container.grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-top: 40px;
+  }
+  .rise-shop-header-section .rise-shop-menu-items ul.flex {
+    gap: 30px;
+  }
+  .rise-shop-header-section .rise-shop-menu-items {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .rise-shop-header-section {
+    padding-bottom: 0px;
+  }
+  .rise-shop-header-section .rise-shop-menu-items ul li a {
+    padding: 15px 0;
+  }
 }
 
 /* Tablets (Min-width 768px and Max-width 1023px) */
