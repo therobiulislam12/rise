@@ -64,8 +64,7 @@
   margin: 32px auto 0;
 }
 
-.rise-already-register-user-login form div,
-.rise-guest-login form {
+.rise-already-register-user-login form div {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -84,7 +83,8 @@
   border-radius: 3px;
   font-family: "HelveticaNeueBold", sans-serif;
 }
-.rise-already-register-user-login h2 {
+.rise-already-register-user-login h2,
+.rise-guest-login h2 {
   font-size: 22px;
 }
 
@@ -100,8 +100,8 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border: 1px solid #A4ABC1;
-  padding: 15px 20px;
+  border: 1px solid #a4abc1;
+  margin-top: 5px;
 }
 
 .rise-guest-login form div button {
@@ -110,11 +110,50 @@
   line-height: 22px;
   font-weight: 700;
   cursor: pointer;
+  padding: 15px 20px;
+  width: 30%;
 }
-.rise-already-register-user-login, .rise-guest-login{
+.rise-guest-login form #user_email {
+  width: 70%;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+.rise-already-register-user-login,
+.rise-guest-login {
   display: none;
 }
 
-.rise-already-register-user-login.rise-active, .rise-guest-login.rise-active{
+.rise-already-register-user-login.rise-active,
+.rise-guest-login.rise-active {
   display: block;
+}
+.rise-guest-login .rise-guest-login-or {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 45px 0;
+  font-family: "HelveticaNeueBold", sans-serif;
+}
+.rise-guest-login .rise-guest-login-or span {
+  width: 100%;
+  height: 2px;
+  background: #e0e2ea;
+}
+.rise-guest-login .rise-guest-login-or {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 45px 0;
+}
+.rise-guest-login .rise-guest-login-or span {
+  width: 100%;
+  height: 2px;
+  background: #e0e2ea;
+}
+
+.rise-guest-login .rise-btn {
+  width: 405px;
+  border-radius: 3px;
 }

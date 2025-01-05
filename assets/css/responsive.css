@@ -240,6 +240,30 @@
   .rise-shop-header-section .rise-shop-menu-items ul li a {
     padding: 15px 0;
   }
+
+  /*=========================================
+           Login Page 
+  =========================================== */
+  .rise-login-main-area .container {
+    max-width: 100%;
+  }
+  .rise-already-register-user-login form,
+  .rise-guest-login form {
+    width: 100%;
+    margin: 32px auto 0;
+  }
+  .rise-already-register-user-login,
+  .rise-guest-login {
+    background: #ffffff;
+    padding: 45px 30px 65px;
+  }
+  .rise-guest-login .rise-btn {
+    width: 100%;
+  }
+  .rise-login-tab div {
+    padding: 20px 10px !important;
+    font-size: 14px !important;
+  }
 }
 
 /* Tablets (Min-width 768px and Max-width 1023px) */
