@@ -271,6 +271,39 @@
   .rise-thank-you-main-area .rise-guest-login {
     padding: 45px 20px 65px;
   }
+
+  /*=========================================
+          Cart Page
+  =========================================== */
+  .rise-cart-section {
+    padding: 30px 0 60px;
+  }
+  .rise-cart-section .container {
+    max-width: 100%;
+  }
+  .rise-cart-main-area {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .rise-cart-item {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .rise-cart-body-container,
+  .rise-checkout-standard-delivery-option,
+  .rise-cart-total-container .rise-cart-total {
+    padding: 30px 20px 36px;
+  }
+  .rise-checkout-standard-delivery-option {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .rise-cart-item .rise-cart-product-remove {
+    top: 210px;
+  }
+  .rise-cart-body-footer {
+    justify-content: space-between;
+  }
 }
 
 /* Tablets (Min-width 768px and Max-width 1023px) */
