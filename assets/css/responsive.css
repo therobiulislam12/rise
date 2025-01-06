@@ -411,6 +411,13 @@
   .rise-shop-header-section .rise-shop-menu-items ul li a {
     padding: 15px 0;
   }
+  /*=========================================
+              Cart Page 
+  =========================================== */
+  .rise-cart-main-area {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
 }
 
 /* Laptops (Min-width 1024px and Max-width 1366px) */
