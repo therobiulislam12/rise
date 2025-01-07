@@ -360,7 +360,7 @@ textarea {
 }
 
 .rise-main-header-section .container {
-  max-width: 1440px;
+  max-width: 1400px;
 }
 
 .rise-main-header-section .rise-header-main-area {
@@ -914,6 +914,7 @@ textarea {
 .rise-most-popular-section .rise-most-popular-head {
   justify-content: space-between;
   align-items: center;
+  margin: 0 20px;
 }
 
 .rise-most-popular-section .rise-most-popular-heading {
