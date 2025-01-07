@@ -565,4 +565,11 @@
   .rise-guest-login form #user_email {
     width: 55%;
   }
+  .rise-already-register-user-login h2,
+  .rise-guest-login h2 {
+    font-size: 18px;
+  }
+  .rise-login-main-area form label {
+    font-size: 16px;
+  }
 }
