@@ -130,7 +130,10 @@
 
   /* Get Inspired Section start */
   .rise-get-inspired-section {
-    padding: 60px 0;
+    padding: 60px 20px;
+  }
+  .rise-clear-path-legacy-section .container {
+    padding: 0;
   }
   .rise-get-inspired-section .rise-get-inspired-columns {
     padding-top: 40px;
@@ -145,11 +148,17 @@
 
   .rise-clear-path-legacy-section .rise-clear-path-legacy-main-area {
     grid-template-columns: 1fr;
-    padding: 60px 0;
+    padding: 60px 0 0;
     gap: 30px;
   }
   .rise-clear-path-legacy-section .rise-clear-path-legacy-content {
-    padding: 0px;
+    padding: 0px 20px;
+  }
+  .rise-clear-path-legacy-section .rise-clear-path-desktop-image {
+    display: none;
+  }
+  .rise-clear-path-legacy-section .rise-clear-path-legacy-image .rise-clear-path-mobile-image {
+    display: block;
   }
 
   /* Shop Page */
@@ -376,6 +385,9 @@
   .rise-clear-path-legacy-section {
     padding: 10px 0 80px;
   }
+  .rise-clear-path-legacy-section .container {
+    padding: 0;
+  }
   .rise-clear-path-legacy-section .rise-clear-path-legacy-main-area {
     grid-template-columns: 1fr;
   }
@@ -384,6 +396,12 @@
   }
   .rise-clear-path-legacy-section .rise-clear-path-legacy-content p {
     padding: 24px 0;
+  }
+  .rise-clear-path-legacy-section .rise-clear-path-desktop-image {
+    display: none;
+  }
+  .rise-clear-path-legacy-section .rise-clear-path-legacy-image .rise-clear-path-mobile-image {
+    display: block;
   }
 
   /* Shop Page */

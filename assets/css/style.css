@@ -1080,3 +1080,6 @@ textarea {
 .rise-clear-path-legacy-section .rise-clear-path-legacy-image img {
   width: 100%;
 }
+.rise-clear-path-legacy-section .rise-clear-path-legacy-image .rise-clear-path-mobile-image {
+  display: none;
+}
