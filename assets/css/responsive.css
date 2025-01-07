@@ -556,4 +556,7 @@
     flex-direction: column;
     gap: 20px;
   }
+  .rise-main-header-section .rise-main-header-icons {
+    gap: 16px;
+  }
 }
