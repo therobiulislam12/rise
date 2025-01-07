@@ -552,4 +552,8 @@
   .rise-cart-footer-buttons button {
     width: 100%;
   }
+  .rise-shop-main-section .rise-shop-sort-header {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
