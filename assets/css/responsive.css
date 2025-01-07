@@ -530,4 +530,21 @@
     border: none;
     padding-right: 0px;
   }
+  .rise-cart-indicator {
+    top: -4px;
+    right: 75px;
+  }
+  .rise-cart-pos {
+    top: 48px;
+    left: -180px;
+  }
+  .rise-cart-pos .container {
+    width: 300px;
+  }
+  .rise-cart-footer-buttons {
+    flex-direction: column;
+  }
+  .rise-cart-footer-buttons button{
+    width: 100%;
+  }
 }
