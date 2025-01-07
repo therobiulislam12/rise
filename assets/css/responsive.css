@@ -62,10 +62,11 @@
     font-size: 15px;
   }
   .rise-footer-section .rise-footer-newsletter #newsletter-email {
-    width: 160px;
+    width: 60%;
   }
   .rise-footer-section .rise-footer-newsletter .rise-footer-submit-btn {
-    padding: 13px 15px;
+    padding: 13px 5px;
+    width: 40%;
   }
   .rise-footer-bottom-section .rise-bottom-footer-content.flex {
     flex-direction: column;
