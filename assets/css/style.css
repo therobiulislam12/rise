@@ -610,6 +610,20 @@ textarea {
   font-size: 14px;
   line-height: 20px;
 }
+.rise-cart-body {
+  max-height: 300px;
+  overflow-y: auto;
+  scrollbar-width: thin; 
+}
+
+.rise-cart-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.rise-cart-body::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
 .rise-cart-body .rise-cart-item {
   grid-template-columns: 86px 1fr;
   gap: 20px;
