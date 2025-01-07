@@ -245,6 +245,11 @@
   .rise-shop-header-section .rise-shop-menu-items {
     width: 100%;
     overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .rise-shop-header-section .rise-shop-menu-items::-webkit-scrollbar {
+    display: none;
   }
   .rise-shop-header-section {
     padding-bottom: 0px;
@@ -544,7 +549,7 @@
   .rise-cart-footer-buttons {
     flex-direction: column;
   }
-  .rise-cart-footer-buttons button{
+  .rise-cart-footer-buttons button {
     width: 100%;
   }
 }
