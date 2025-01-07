@@ -559,4 +559,10 @@
   .rise-main-header-section .rise-main-header-icons {
     gap: 16px;
   }
+  .rise-guest-login form div button {
+    width: 45%;
+  }
+  .rise-guest-login form #user_email {
+    width: 55%;
+  }
 }
